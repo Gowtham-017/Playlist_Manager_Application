@@ -1,0 +1,159 @@
+.homepage {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    
+  }
+  
+  .leftsection {
+  
+    width:500px;
+    display:flex;
+  
+    align-items: center;
+    background-color: rgba(130, 125, 125, 0.176);
+  }
+  
+  
+  .home1page {
+    display: flex;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .login-container {
+    background-color: rgba(25, 25, 23, 0.115);
+    padding: 30px;
+    height:550px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  nav {
+      background-color: rgba(6, 5, 5, 0.96);
+    }
+    .navicon{
+      color:white;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+      margin-left: 20px;
+      
+    }
+    .navcon{
+      color:white;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+      margin-left: 1200px;
+      
+    }
+    .menu {
+      display: flex;
+      justify-content:flex-start;
+      background-color: black;
+      
+  }
+  
+  .menu li a {
+      color: white;
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 20px;
+      text-decoration: none;
+  }
+  
+  .menu li a:hover {
+      background-color: #555;
+  }
+  
+  
+  
+  .search{
+      width:200px;
+      margin-left: 30px;
+      margin-top: 15px;
+      display: flex;
+      border-radius: 40px;
+      
+      justify-content: flex-start;
+     }
+  .header{
+    margin-top: -400px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .listhead{
+    
+    background-color: #ccc;
+  }
+  
+  .listicon{
+    color:black;
+  }
+  .addhead{
+    width:40px;
+    background-color: #ccc;
+  }
+  
+  .yourplay{
+    background-color: #ccc;
+  }
+  .playbutton{
+    background-color: rgb(67, 65, 65);
+    height: 50px;
+    color:white;
+    width:100%;
+    margin: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+  }
+  
+  .profilelist{
+    background-color: white;
+    width: 200px;
+    border-style:ridge;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+  
+  }
+  
+  .ullist{
+   display: flex;
+   margin-left: -10px;
+   width:100%;
+   border-radius: 10px;
+   justify-content: center;
+  }
+  
+  .homee{
+    height: 100%;
+    padding-top: 100px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: -100px;
+    margin-left: 0px;
+    border: 1px solid black;
+  }

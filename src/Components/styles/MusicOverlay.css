@@ -1,0 +1,41 @@
+/* MusicOverlay.css */
+
+.music-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .play-pause-btn {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .song-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .song-thumbnail {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .song-title {
+    font-size: 16px;
+  }
+  
+  .song-artist {
+    font-size: 14px;
+  }
+  

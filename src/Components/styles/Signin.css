@@ -1,0 +1,206 @@
+/* 
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.company-section {
+  
+  width:50%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  opacity: 80%;
+  align-items: center;
+  background-color: rgba(25, 25, 23, 0.352);
+}
+
+
+.login1-page {
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  width:100%;
+  justify-content: center;
+  background-image: url("grad9.jpeg");
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(22, 15, 15, 0.338);
+}
+
+.login-container {
+  background-color: black;
+  padding: 30px;
+  
+   backdrop-filter: blur(50%);
+ 
+  border: 1px solid white;
+  color: white;
+
+  border-radius: 10px;
+ 
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.signinbutton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width:300px;
+  cursor: pointer;
+}
+
+.signinbutton:hover {
+  background-color: #0056b3;
+}
+
+.policy{
+  font-weight:normal;
+  margin-top: -22px;
+  margin-left: -70px;
+}
+.logo{
+  background-image: url("mucify.png");
+  height:500px;
+  width:500px;
+  border-radius: 55px;
+  
+}
+
+
+.music{
+  color:#b36e00d2
+}
+.footer1{
+
+  color:black;
+  display: flex;
+  gap:20px;
+  height:20px;
+  margin-top : 750px;
+  margin-left: -250px;
+}
+
+.continue{
+  background-color: #eaecef;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width:300px;
+  cursor: pointer;
+}
+
+.continue:hover {
+  background-color: #aaadb4ce;
+}
+a:link,a:visited{
+  color:white;
+  text-decoration: none;
+}
+.icon{
+  color:black;
+}
+ */
+
+
+
+ /* Add this to your existing Signup.css or create a new CSS file */
+.login1-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/signin1.jpg");
+  background-size: cover;
+  /* background-color: #f3f3f3; */
+}
+
+.login-container {
+  max-width: 400px;
+  width: 60%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.signininput {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signinbutton {
+  width: 70%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signinbutton a{
+  color: white;
+  text-decoration: none;
+}
+
+.signinbutton:hover {
+  background-color: #0056b3;
+}
+
+.newuser {
+  font-size: 14px;
+  color: white;
+}
+
+.newuser a {
+  text-decoration: none;
+  color: #007bff;
+} 
+
+.newuser a:hover {
+  text-decoration: underline;
+}
+
+.footer1{
+
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  /* height:20px; */
+  margin-top : 750px;
+  margin-left: -350px;
+}
+
+.footer1 a{
+  color: black;
+}

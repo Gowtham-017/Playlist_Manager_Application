@@ -1,0 +1,84 @@
+.new-playlist {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.playlist-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.playlist-name {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.playlist-name input {
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  width: 40%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-left: 300px;
+}
+
+.search-form input[type='text'] {
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-form button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-results h2 {
+  margin-bottom: 10px;
+}
+
+.search-results p {
+  margin: 0;
+}
+
+.search-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-results li {
+  margin-bottom: 5px;
+}
+
+.search-results li button {
+  padding: 2px 5px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+.formtag{
+
+  display: flex;
+ 
+}

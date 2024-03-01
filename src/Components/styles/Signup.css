@@ -1,0 +1,212 @@
+/* 
+  .signup-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .signup-section {
+  
+    width:50%;
+    display: flex;
+    background-image: url("musify.png");
+   
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: white;
+  }
+  
+  
+  .signup1-page {
+    display: flex;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7f7c7c3a;
+  }
+  
+  .signup-container {
+    background-color: white;
+    padding: 30px;
+    height:400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
+  .signupinput {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .signupbutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width:300px;
+    cursor: pointer;
+  }
+  
+  .signupbutton:hover {
+    background-color: #0056b3;
+  }
+  
+ .signuplogo{
+  .logo{
+    background-image: url("mucify.png");
+    height:500px;
+    width:500px;
+   
+  }
+ }
+  
+  .signupfooter{
+
+    color:black;
+    height:20px;
+    background-color: white;
+    margin-top : 750px;
+    margin-left: -180px;
+  }
+   */
+
+
+
+
+
+
+.logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/signup1.jpg");
+  background-size: cover;
+  background-color: #f3f3f3;
+}
+
+.signup-page {
+  max-width: 400px;
+  width: 60%;
+  padding: 20px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.signup1-page {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.signup-container {
+  text-align: center;
+}
+
+
+
+.ab1 {
+  color: #999;
+}
+
+.a1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.signupinput {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signupbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signupbutton:hover {
+  background-color: #0056b3;
+}
+
+
+.create1 {
+  font-size: 14px;
+  color: #333;
+}
+
+.b1 {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.b1:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 80% {
+    transform: translateX(5px);
+  }
+  30%, 50%, 70% {
+    transform: translateX(-10px);
+  }
+  40%, 60% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply Animations */
+.animated {
+  animation-duration: 0.5s;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.shake {
+  animation-name: shake;
+}

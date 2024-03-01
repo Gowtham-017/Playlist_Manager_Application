@@ -1,0 +1,263 @@
+.body{
+  background-color: white;
+  height: 100vh;
+
+}
+
+.embedd{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 5%;
+  width: 30%;
+}
+
+  .song1{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px  white;
+    border-style:inset;
+    position: relative;
+    grid-gap:25px;
+    height: 57px;
+    color: black;
+    padding: 0 16px;
+    background-color: snow;
+
+  }
+  .song2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border: 1px solid black;
+    position: relative;
+    grid-gap:16px;
+    color: white;
+    padding: 0 16px;
+    background-color:#00008B;
+  }
+
+  .song1:hover{
+    background-color:silver;
+  }
+  .listname{
+
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/pagebg.jpg");
+    font-size:x-large;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color:silver;
+  }
+  .playmus{
+    background-color:snow;
+    opacity: 100%;
+    display: flex;
+    color:black;
+  }
+  
+
+
+  .music-player{
+    width: 100%;
+    display: flex;
+    margin-top:100px ;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  
+  .edit-menu{
+    position: absolute;
+    top: 400px;
+    margin-left: 80px;
+    width: 10%;
+    color:black;
+  }
+  
+  .edit-menu::before{
+    position: absolute;
+    height: 20px;
+    /* color: black; */
+    transform: rotate(90deg);
+  }
+  
+  .edit-menu.active{
+  
+    color: black;
+    border-radius: 80%;
+    justify-content:flex-end;
+    float:inline-start;
+    align-items: center;
+  }
+  
+  .edit-menu.inactive{
+   
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+  }
+  
+
+
+
+.edit-menu :hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.editItem{
+  display: flex;
+  
+
+}
+
+.editItem img{
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: var(--speed);
+}
+
+.editItem a{
+  max-width: 50px;
+  margin-left: 10px;
+  color: black;
+  transition: var(--speed);
+}
+
+
+#songs {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#songs td, #songs th {
+  border: 1px solid #ddd;
+  border: none;
+  height: 10%;
+  padding: 8px;
+}
+ table {
+    /* border: 2px solid forestgreen; */
+    width: 800px;
+    height: 200px;
+  }
+    
+  th {
+    /* border-bottom: 1px solid black; */
+    width:fit-content;
+  }
+    
+  td {
+    text-align: center;
+    height: 10px;
+  }
+#songs tr:nth-child(even){background-color: #f2f2f2;}
+
+#songs tr:hover {background-color: #615f5f6a;}
+
+#songs th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: #04AA6D; */
+  color: white;
+  background-color: #615f5f;
+}
+
+.editbutton{
+  background-color:slategray;
+  width: 100%;
+  color:white;
+  font-size:medium;
+  border: 1px solid black ;
+  border-radius: 5px;
+  border-style: none;
+  height: 30px;
+}
+
+.addbutton{
+  background-color: slategray;
+  color: white;
+  height: 80%;
+  justify-content: flex-end;
+  width: 100px;
+}
+.add{
+  margin-left: 700px;
+  padding-top: 5px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+  /* position: absolute; */
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #888;
+}
+/* .audioplayer{
+  margin-top: 50px;
+} */
+
+
+
+/* CSS for the song-controls section */
+.song-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.control-button {
+  /* background-color: #007bff; */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  /* padding: 8px 16px; */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.control-button:focus {
+  outline: none;
+}

@@ -1,0 +1,11 @@
+  .imagelist{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  }
+
+  img{
+    height: 80%;
+  }

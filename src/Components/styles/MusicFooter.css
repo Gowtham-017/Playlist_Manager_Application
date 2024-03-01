@@ -1,0 +1,48 @@
+.music-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .music-player audio {
+    display: none;
+  }
+  
+  .player-controls button {
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .player-controls button:focus {
+    outline: none;
+  }
+  
+  .track-progress {
+    flex: 1;
+    height: 4px;
+    background-color: #555;
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #ffac33;
+    transition: width 0.1s;
+  }
+  
+  .current-time {
+    width: 40px;
+  }
+  
